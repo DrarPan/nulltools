@@ -7,5 +7,5 @@ done
 echo ${cm}
 eval "git add ."
 echo "git commit -m '${cm}'"
-eval 'git commit -m ${cm}'
+eval "git commit -m '${cm}'"
 eval "git push"
